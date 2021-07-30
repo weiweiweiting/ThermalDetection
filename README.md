@@ -9,6 +9,9 @@ cd buil
 cmake ..
 make && sudo make install</code></pre>
 
+* If there is no Cmake, you need to insall it by
+<pre><code>brew install cmake</code></pre>
+
 # Run the project
 1. Download project.
 <pre><code>git clone https://github.com/weiweiweiting/ThermalDetection.git</code></pre>
@@ -28,6 +31,9 @@ pip install tensorflow
 pip install pyzbar
 pip install imutils
 pip install dlib</code></pre>
+
+* If there is no zbar shared library, you need to insall it by
+<pre><code>brew install zbar</code></pre>
 
 3. Run the project
 <pre><code>python FaceandQRC9.py</code></pre>
