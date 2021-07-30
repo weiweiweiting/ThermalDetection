@@ -13,7 +13,7 @@ make && sudo make install</code></pre>
 1. Download project.
 <pre><code>git clone https://github.com/weiweiweiting/ThermalDetection.git</code></pre>
 
-2. Set the environment.
+2. Set the environment and run.
 Go to project directory.
 <pre><code>cd ThermalDetection/</code></pre>
 Build a virtual environment.
@@ -29,11 +29,7 @@ pip install pyzbar
 pip install imutils
 pip install dlib</code></pre>
 
-3. Run the environment. 
-<pre><code>cd ThermalDetection/</code></pre>
-<pre><code>source env/bin/activate</code></pre>
-
-4. Run the project
+3. Run the project
 <pre><code>python FaceandQRC9.py</code></pre>
 
 # Modify config file
