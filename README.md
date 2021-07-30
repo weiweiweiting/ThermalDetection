@@ -2,10 +2,10 @@
 
 # Prerequisites
 You will need libusb and CMake installed.
-<pre><code>git clone https://github.com/libuvc/libuvc</code></pre>
+<pre><code>git clone https://github.com/groupgets/libuvc</code></pre>
 <pre><code>cd libuvc
 mkdir build
-cd build
+cd buil
 cmake ..
 make && sudo make install</code></pre>
 
