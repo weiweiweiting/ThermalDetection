@@ -1,5 +1,6 @@
 # ThermalDetection
 
+# Run the project
 1. Download project.
 <pre><code>git clone https://github.com/weiweiweiting/ThermalDetection.git</code></pre>
 
@@ -12,13 +13,13 @@ Build a virtual environment.
 Run the environment. **Run this line everytime if you run the project.*
 <pre><code>source env/bin/activate</code></pre>
 Install package. **PyQt5 may takes some time to install.*
-<pre><code>pip install opencv-python</code></pre>
-<pre><code>pip install PyQt4</code></pre>
-<pre><code>pip install pillow</code></pre>
-<pre><code>pip install tensorflow</code></pre>
-<pre><code>pip install pyzbar</code></pre>
-<pre><code>pip install imutils</code></pre>
-<pre><code>pip install dlib</code></pre>
+<pre><code>pip install opencv-python
+pip install PyQt4
+pip install pillow
+pip install tensorflow
+pip install pyzbar
+pip install imutils
+pip install dlib</code></pre>
 
 3. Run the environment. 
 <pre><code>cd ThermalDetection/</code></pre>
@@ -26,3 +27,9 @@ Install package. **PyQt5 may takes some time to install.*
 
 4. Run the project
 <pre><code>python FaceandQRC9.py</code></pre>
+
+# Modify config file
+1. Open <code>config.ini</code>
+2. Comment out device_direction = vertical if you want to have horizontal version.
+   <br>Comment out device_direction = horizontal if you want to have vertical version.
+3. Modify other settings if you need.
