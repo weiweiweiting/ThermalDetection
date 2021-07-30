@@ -20,9 +20,9 @@ Build a virtual environment.
 <pre><code>virtualenv env</code></pre>
 Run the environment. **Run this line everytime if you run the project.*
 <pre><code>source env/bin/activate</code></pre>
-Install package. **PyQt5 may takes some time to install.*
+Install package.
 <pre><code>pip install opencv-python
-pip install PyQt4
+pip install PyQt5
 pip install pillow
 pip install tensorflow
 pip install pyzbar
